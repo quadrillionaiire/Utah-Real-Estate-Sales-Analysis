@@ -48,29 +48,58 @@ The primary measure of success for this project is the accuracy of predictive mo
 
 ## Analysis & Results
 
-### Key Market Insights:
-1. **Top Factors Influencing Price**:  
-   - Larger properties (in square footage and lot size) command higher prices.  
-   - Properties with more bedrooms and bathrooms have a positive correlation with price, though diminishing returns are observed beyond 4 bedrooms.  
+#### **EDA**  
+The exploratory data analysis revealed several key insights into Utah real estate trends:  
 
-2. **Temporal Trends**:  
-   - Average property prices have steadily increased from 2015 to 2023.  
+1. The **average property listing price** is approximately $797,000, though most properties are priced below $529,000.  
+2. **Farm properties** tend to command significantly higher prices compared to other types, reflecting their size and utility.  
+3. Properties are generally **newer**, with a construction peak around 2003, but the data includes a wide range of building years, from historic to upcoming builds.  
+4. There is almost **no relationship between lot size and building size**, underscoring the diversity of property types in the market.  
+5. **Garage spaces** are a common amenity but do not appear to strongly influence listing prices.  
+6. **"For sale" properties** consistently fetch higher prices than "ready-to-build" lots, likely due to the immediate move-in potential.  
 
-3. **Property Type Analysis**:  
-   - Single-family homes and condos are the most common property types, with farms generally commanding higher prices.  
-   - Townhouses represent a growing segment, offering a balance of affordability and features.  
+---
 
-### Machine Learning Insights:
-Predictive modeling revealed the following:  
+#### **Inferential Analysis**  
+Our statistical exploration identified the following patterns impacting property values:  
 
-- **K Nearest Neighbors**:  
-  Achieved 99% accuracy with features like square footage, property age, and lot size as top predictors.  
+1. **Bedroom Count**: More bedrooms correlate strongly with higher prices, as they typically provide more space and utility for buyers.  
+2. **Year Built**: Homes constructed after 2000 are valued higher, likely due to their modern features and lower maintenance requirements.  
+3. **Lot Size**: While larger lots generally cost more, their influence on overall price is minimal compared to other factors.  
+4. **Garage Presence**: Surprisingly, the presence of a garage has a negligible impact on listing price.  
+5. **Property Type**: Property types like single-family homes, condos, and townhouses have distinct pricing patterns, reflecting buyer preferences and lifestyle alignment.  
 
-- **Gradient Boosting**:  
-  While useful, this model requires more tuning to improve performance.
+These findings are valuable for stakeholders to better understand which factors drive property pricing and prioritize features when buying or selling.  
 
-- **Random Forest**:  
-  Its performance could be enhanced by increasing tree depth or using advanced feature engineering.
+---
+
+#### **Machine Learning Insights**  
+Predictive modeling provided the following results:  
+
+| **Model**             | **R² Score** | **MAE**          | **MSE**             | **Key Insights**                                                                 |
+|------------------------|--------------|-------------------|---------------------|----------------------------------------------------------------------------------|
+| **K-Nearest Neighbors** | **0.9954**   | -                 | -                   | Outstanding performance, explaining 99.54% of the variance. Best suited for localized predictions. |
+| **Gradient Boosting**   | 0.5643       | 306,382.10        | 1.83 trillion       | Moderate accuracy, significant error rates; requires further tuning for improvement. |
+| **Random Forest**       | 0.5166       | 301,965.53        | 2.04 trillion       | Underperformed due to limited pattern capture; could benefit from better feature selection. |  
+
+Among these, **KNN emerged as the top performer**, achieving near-perfect accuracy and explaining almost all data variance. Gradient Boosting and Random Forest models showed potential but require optimization to achieve comparable accuracy levels.  
+
+---
+
+#### **Conclusions**  
+This analysis provides actionable insights for real estate stakeholders:  
+
+- **Focus on Key Features**: Highlight attributes like bedroom count and recent renovations in listings to enhance perceived value.  
+- **Utilize Predictive Models**: Deploy the KNN model for reliable property price predictions, enabling accurate market assessments.  
+- **Timing Strategies**: Align property sales with seasonal peaks to maximize returns.  
+- **Invest in Emerging Segments**: Townhouses and condos represent growth opportunities, particularly in Utah’s urban areas.  
+
+---
+
+#### **Recommendations**  
+1. **Optimize Listings**: Emphasize property features that drive prices, such as size, age, and condition.  
+2. **Enhance Model Accuracy**: Continue refining machine learning models with advanced techniques to improve predictive performance.  
+3. **Create Tools for Real Estate Professionals**: Develop a dashboard integrating predictive models and insights for practical use.  
 
 ---
 
