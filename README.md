@@ -113,8 +113,8 @@ This analysis provides actionable insights for real estate stakeholders:
 
 ## For More Information
 
-For more details, see the full analysis in the [project notebooks](https://github.com/quadrillionaiire/Utah-Real-Estate-Sales-Analysis/tree/main/notebooks) or review this[ presentation]((https://www.canva.com/design/DAGWc5fTdS0/woFwm899RyydP5aFscJM9Q/edit?utm_content=DAGWc5fTdS0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
-[https://www.canva.com/design/DAGWc5fTdS0/woFwm899RyydP5aFscJM9Q/edit?utm_content=DAGWc5fTdS0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](url)
+For more details, see the full analysis in the [project notebooks](https://github.com/quadrillionaiire/Utah-Real-Estate-Sales-Analysis/tree/main/notebooks) or review this[presentation](https://github.com/quadrillionaiire/Utah-Real-Estate-Sales-Analysis/blob/main/reports/Utah%20Real%20Estate%20Sales%20Analysis.pptx)
+
 ---
 
 ## Repository Structure
