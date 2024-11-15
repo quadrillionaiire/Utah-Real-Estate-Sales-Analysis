@@ -103,22 +103,6 @@ This analysis provides actionable insights for real estate stakeholders:
 
 ---
 
-## Conclusions
-This analysis highlights critical insights for real estate stakeholders:  
-
-1. **Focus on Size and Location**: Larger properties in desirable locations are key drivers of higher prices.  
-2. **Timing Matters**: Listing properties during peak summer months can maximize sales prices.  
-3. **Invest in Growing Segments**: Townhouses and condos represent emerging opportunities in Utah's real estate market.
-
----
-
-## Recommendations
-1. **Optimize Property Listings**: Highlight features like size, garage spaces, and recent renovations to justify pricing.  
-2. **Leverage Predictive Tools**: Use the developed models to estimate fair market prices and identify undervalued properties.  
-3. **Market Timing Strategy**: Align sales efforts with seasonal price peaks to capitalize on demand.  
-
----
-
 ## Next Steps
 1. **Advanced Modeling**: Explore deep learning techniques to further improve price prediction accuracy.  
 2. **Geospatial Analysis**: Incorporate location-specific factors to refine market insights.  
@@ -126,11 +110,17 @@ This analysis highlights critical insights for real estate stakeholders:
 
 ---
 
+## For More Information
+
+For more details, see the full analysis in the [project notebooks](https://github.com/quadrillionaiire/Utah-Real-Estate-Sales-Analysis/tree/main/notebooks) or review this [presentation]([https://www.canva.com/design/DAGWc5fTdS0/r5dwn2yLJ95sYcOAMbFm-g/view?utm_content=DAGWc5fTdS0&utm_campaign=designshare&utm_medium=link&utm_source=editor])
+
+---
+
 ## Repository Structure
 - `data/`: Raw and cleaned datasets.  
 - `notebooks/`: Jupyter Notebooks for EDA, inferential analysis, and machine learning.  
-- `models/`: Trained machine learning models and evaluation metrics.  
-- `visualizations/`: Key charts and graphs from the analysis.  
-- `README.md`: Project overview and findings (this document).  
+- `reports/`: Final Pipeline summary.
+- `images/`: Key charts and graphs from the analysis.  
+- `README.md`: Project overview and findings (this document).
 
-For more details, see the full analysis in the project notebooks.
+
