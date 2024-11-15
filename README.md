@@ -1,4 +1,5 @@
 # Utah Real Estate Sales Analysis and Predictive Modeling
+[images/marquee-08.jpg]!
 
 ## Overview
 This project analyzes a dataset of real estate listings in Utah to uncover market trends, pricing dynamics, and factors influencing sales prices. By leveraging statistical methods and machine learning models, the analysis aims to provide actionable insights for property investors and real estate professionals. Key goals include understanding the drivers of property value, identifying trends in sales, and building predictive models to estimate property prices.
